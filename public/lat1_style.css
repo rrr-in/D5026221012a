@@ -1,0 +1,35 @@
+body {
+    background-color: #303335;
+}
+
+.btn {
+    border-color: #3C7670;
+    width: 33.33%;
+    height: 33.33%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.container {
+    align-items: center;
+    
+}
+
+.btn-order {
+    background-color: rgb(96, 160, 255);
+    border-color: rgb(96, 160, 255);
+}
+
+.btn-address{
+    color: #3C7670;
+}
+
+.btn-payment{
+    color: #3C7670;
+}
+
+.img {
+    size: 5px;
+}
+

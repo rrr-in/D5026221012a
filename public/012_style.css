@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans&display=swap');
+
+body {
+    background-color: (#FFFFFF);
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    right: 0;
+    z-index: 10;
+}
+
+.rinsharebutton:hover {
+    background-color: #c7c8c9;
+}
+
+.rinsharecontainer {
+    max-width: calc(788px);
+    margin: 28px 26.5% 0px 73.5%;
+
+}
+
+.rinsharebutton {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+    border-color: #f0f0f02d;
+    position: fixed;
+    right: 0;
+    top: 5;
+    margin-right: 80px;
+}
+
+
+svg {
+    color: black;
+    margin-top: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.rinroundimg {
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.rinheader {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.rinbox {
+    clear: right;
+    text-align: center;
+    width: 74%;
+    height: 52px;
+    border-radius: 25px;
+    background-color: #2A3235;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 24px;
+    display: block;
+    font-size: 25px;
+    font-weight: 570;
+    text-decoration: none;
+    color: white;
+}
+
+a.rinbox:hover {
+    width: 76%;
+}
+
+.rinboxshare1 {
+    position: absolute;
+    right: 180px;
+    top: 400px;
+    width: 50px;
+    height: 50px;
+    background-color: #2A3235;
+    border-radius: 50%;
+}
+
+.rinboxshare2 {
+    position: absolute;
+    right: 180px;
+    top: 510px;
+    width: 50px;
+    height: 50px;
+    background-color: #2A3235;
+    border-radius: 50%;
+}
+
+.rinboxshare3 {
+    position: absolute;
+    right: 180px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+    background-color: #2A3235;
+    border-radius: 50%;
+}
+
+.rinboxshare4 {
+    position: absolute;
+    right: 180px;
+    top: 738px;
+    width: 50px;
+    height: 50px;
+    background-color: #2A3235;
+    border-radius: 50%;
+}
+
+.rinboxshare5 {
+    position: absolute;
+    right: 180px;
+    top: 845px;
+    width: 50px;
+    height: 50px;
+    background-color: #2A3235;
+    border-radius: 50%;
+}
+
+.rinboxshare svg {
+    float: inline-end;
+}
+
+
+.rinboxshare1:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.rinboxshare2:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.rinboxshare3:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.rinboxshare4:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.rinboxshare5:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+a.rinfooter:hover {
+    color: black;
+}
+
+.rinfooter {
+    text-align: left;
+    font-size: 14px;
+    color: #808080;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.rinimg {
+    text-align: center;
+    width: 136px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: block;
+}
+
+.rincenter {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.rinheadermargin {
+    margin-bottom: 60px;
+    text-align: center;
+}

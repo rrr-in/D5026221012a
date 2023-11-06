@@ -1,0 +1,23 @@
+h3 {
+    color: #45fa4e;
+}
+
+p {
+    color: #887f7f;
+    text-align: justify;
+}
+
+body {
+    background: #fad948;
+}
+
+/* class is just like name \; class berupa nama*/
+.ratakanan {
+    text-align: right;
+    color: #509ffa;
+    font-weight: bold;
+}
+
+.kotakku1 {
+    border-style: solid;
+}
