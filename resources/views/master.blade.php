@@ -21,7 +21,7 @@
 
         <header>
 
-            <h2>Blog Karina Filza Aafiyah-5026221012</h2>
+            <h2>Blog Karina Filza</h2>
             <nav>
                 <a href="/blog">HOME</a>
                 |
