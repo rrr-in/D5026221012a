@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+
+
 class PegawaiController extends Controller
 {
     public function index()
@@ -89,4 +91,10 @@ public function cari(Request $request)
 		return view('index',['pegawai' => $pegawai]);
 
 	}
+
+    public function view($id){
+        $pegawai = DB::table('pegawai')->where('pegawai_id', $id)->first();
+
+        return view('view', ['pegawai' => $pegawai]);
+    }
 }
