@@ -106,6 +106,8 @@ Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
 Route::get('/nilai','App\Http\Controllers\NilaiController@index');
+Route::get('/nilai/tambahNilai','App\Http\Controllers\NilaiController@tambahNilai');
+Route::post('/nilai/storeNilai','App\Http\Controllers\NilaiController@storeNilai');
 
 
 

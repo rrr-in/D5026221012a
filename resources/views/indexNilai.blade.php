@@ -4,7 +4,7 @@
 @section('judul_halaman')
     <h2>www.malasngoding.com</h2>
     <h3>Nilai</h3>
-
+    <a href="/nilai/tambahNilai" class="btn btn-primary"> + Tambah Nilai Baru</a>
 
     <br />
     <br />
