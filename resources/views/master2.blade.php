@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
     <title>@yield('title')</title>
-</head>
+    <meta charset="UTF-8">
+    </head>
 
 <body>
 

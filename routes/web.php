@@ -109,6 +109,12 @@ Route::get('/nilai','App\Http\Controllers\NilaiController@index');
 Route::get('/nilai/tambahNilai','App\Http\Controllers\NilaiController@tambahNilai');
 Route::post('/nilai/storeNilai','App\Http\Controllers\NilaiController@storeNilai');
 
-
-
-
+//tugas pra EAS
+Route::get('/kursi','App\Http\Controllers\KursiController@index');
+Route::get('/kursi/tambah','App\Http\Controllers\KursiController@tambah');
+Route::post('/kursi/store','App\Http\Controllers\KursiController@store');
+Route::get('/kursi/edit/{id}','App\Http\Controllers\KursiController@edit');
+Route::post('/kursi/update','App\Http\Controllers\KursiController@update');
+Route::get('/kursi/hapus/{id}','App\Http\Controllers\KursiController@hapus');
+Route::get('/kursi/cari','App\Http\Controllers\KursiController@cari');
+Route::get('/kursi/view/{id}','App\Http\Controllers\KursiController@view');
