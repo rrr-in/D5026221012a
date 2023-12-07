@@ -35,9 +35,9 @@
                     <div class="form-group">
                         <label for="alamat" class="col-sm-2 control-label">Tersedia</label>
                         <div class="col-sm-8">
-                            <input type="checkbox" id="tersedia" name="tersedia" value="Y" {{ $kursi->tersedia === 'Y' ? 'checked' : '' }}>
+                            <input type="radio" id="tersedia" name="tersedia" value="Y" {{ $kursi->tersedia === 'Y' ? 'checked' : '' }}>
                             <label for="Y"> Y</label><br>
-                            <input type="checkbox" id="tersedia" name="tersedia" value="T" {{ $kursi->tersedia === 'T' ? 'checked' : '' }}>
+                            <input type="radio" id="tersedia" name="tersedia" value="T" {{ $kursi->tersedia === 'T' ? 'checked' : '' }}>
                              <label for="T"> T</label><br>
                         </div>
                     </div>
