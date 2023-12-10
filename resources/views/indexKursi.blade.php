@@ -1,10 +1,9 @@
-@extends('master2')
+@extends('masterKursi')
 
 @section('title', 'Database Kursi')
 
 @section('judul_halaman')
-    <h2>www.malasngoding.com</h2>
-    <h3>Kursi</h3>
+    <h3 class="text-center">Data Kursi</h3>
     <a href="/kursi/tambah" class="btn btn-primary"> + Tambah Kursi Baru</a>
 
     <br />

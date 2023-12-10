@@ -1,19 +1,27 @@
-@extends('master2')
+@extends('masterKursi')
 
 @section('konten')
-<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Kursi</h3>
-	<br/>
-	<br/>
-    <div class="row">
-        <!-- Empty box displayed beside the form -->
-        <div class="col-md-6">
-            <!-- Replace this div with your empty box content -->
-            <div style="border: 1px solid #ccc; padding: 10px; width: 350px; height: 250px;">
-                <!-- Empty box content goes here -->
 
+	<h3 class="text-center"> Data Kursi</h3>
+	<br/>
+	<br/>
+
+
+    <div class="row">
+
+              <div class=" col-md-6 d-flex justify-content-center">
+                <div class="col-sm-7">
+                    <div class="card-group" style="height: 300px; width: 300px">
+                        <div class="card bg-white">
+                            <div class="card-body text-center">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-        </div>
+
 
         <div class="col-md-6">
                 <form class="form-horizontal" role="form" action="/kursi/view/{{ $kursi->kodekursi }}" method="GET">

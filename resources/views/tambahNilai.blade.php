@@ -1,20 +1,13 @@
-@extends('master2')
+@extends('masterNilai')
 
 @section('konten')
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Nilai Kuliah</h3>
+	<h3 class="text-center">Nilai Kuliah</h3>
 
 	<br/>
 	<br/>
 
 	<form class="form-horizontal" role="form" action="/nilai/storeNilai" method="post">
         {{ csrf_field() }}
-        <div class="form-group">
-            <label for="nama" class="col-sm-2 control-label">ID</label>
-            <div class="col-sm-8">
-                <input type="text" class="form-control" id="ID" name="ID" placeholder="Masukkan ID Mahasiswa">
-            </div>
-        </div>
 
         <div class="form-group">
             <label for="jabatan" class="col-sm-2 control-label">NRP</label>

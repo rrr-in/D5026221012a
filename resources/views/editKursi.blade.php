@@ -1,8 +1,7 @@
-@extends('master2')
+@extends('masterKursi')
 
 @section('konten')
-    <h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-    <h3>Kursi</h3>
+    <h3 class="text-center">Data Kursi</h3>
 
     <a href="/kursi" class="btn btn-primary"> Kembali</a>
 

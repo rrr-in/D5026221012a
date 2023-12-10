@@ -1,9 +1,8 @@
-@extends('master2')
-@section('title', 'Database Pegawai')
+@extends('masterNilai')
+@section('title', 'Database Nilai')
 
 @section('judul_halaman')
-    <h2>www.malasngoding.com</h2>
-    <h3>Nilai</h3>
+    <h3 class="text-center">Nilai</h3>
     <a href="/nilai/tambahNilai" class="btn btn-primary"> + Tambah Nilai Baru</a>
 
     <br />

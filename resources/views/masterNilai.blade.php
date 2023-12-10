@@ -40,7 +40,7 @@
                         Database
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/pegawai">Pegawai</a>
+                        <a class="dropdown-item" href="/nilai">Nilai</a>
                         <a class="dropdown-item" href="#">Link 2</a>
                         <a class="dropdown-item" href="#">Link 3</a>
                     </div>
