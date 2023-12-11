@@ -12,11 +12,10 @@
     @endif
 
     @if(session('success'))
-        <div class="alert alert-success">
+        <div class="alert alert-primary">
             {{ session('success') }}
         </div>
     @endif
-
 
     <form class="form-horizontal" role="form" action="/karyawan/store" method="post" id="karyawanForm">
         {{ csrf_field() }}
