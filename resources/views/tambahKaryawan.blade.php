@@ -24,7 +24,7 @@
             <label for="kodepegawai" class="col-sm-2 control-label">Kode Pegawai</label>
             <div class="col-sm-8">
                 <input type="text" class="form-control" id="kodepegawai" name="kodepegawai"
-                    placeholder="Masukkan Kode Pegawai" value="{{ old('kodepegawai') }}">
+                    placeholder="Masukkan Kode Pegawai">
             </div>
         </div>
 
