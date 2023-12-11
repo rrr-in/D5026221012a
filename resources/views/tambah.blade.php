@@ -11,6 +11,7 @@
 
 	<form class="form-horizontal" role="form" action="/pegawai/store" method="post">
         {{ csrf_field() }}
+        
         <div class="form-group">
             <label for="nama" class="col-sm-2 control-label">Nama</label>
             <div class="col-sm-8">

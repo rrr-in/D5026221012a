@@ -76,6 +76,7 @@
                             </div>
 
                             <div class="ml-12">
+                                <li><a href="/karyawan" target="blank" style="color: white">EAS Soal DD </a></li>
                                 <li><a href="/kursi" target="blank" style="color: white">Tugas Pra EAS (Kursi) </a></li>
                                 <li><a href="/pegawai" target="blank" style="color: white">Pegawai</a></li>
                                 <li><a href="/nilai" target="blank" style="color: white">Nilai Kuliah</a></li>

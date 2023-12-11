@@ -118,3 +118,10 @@ Route::post('/kursi/update','App\Http\Controllers\KursiController@update');
 Route::get('/kursi/hapus/{id}','App\Http\Controllers\KursiController@hapus');
 Route::get('/kursi/cari','App\Http\Controllers\KursiController@cari');
 Route::get('/kursi/view/{id}','App\Http\Controllers\KursiController@view');
+
+//EAS SOAL DD
+Route::get('/karyawan','App\Http\Controllers\KaryawanController@index');
+Route::get('/karyawan/tambah','App\Http\Controllers\KaryawanController@tambah');
+Route::post('/karyawan/store','App\Http\Controllers\KaryawanController@store');
+Route::get('/karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');
+
