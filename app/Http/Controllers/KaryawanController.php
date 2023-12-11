@@ -32,7 +32,7 @@ class KaryawanController extends Controller
 
     // Jika kodepegawai sudah ada, beri respons atau pesan yang sesuai
     if ($existingKaryawan) {
-        return redirect('/karyawan')->with('error', 'Kode Pegawai sudah ada dalam tabel.');
+        return redirect('/karyawan')->with('error', 'Kode Pegawai sudah ada!');
     }
 
     // Jika kodepegawai belum ada, lakukan penyisipan data ke dalam tabel
@@ -44,7 +44,7 @@ class KaryawanController extends Controller
     ]);
 
     // Redirect dengan pesan sukses atau kembali ke halaman karyawan
-    return redirect('/karyawan')->with('success', 'Data Karyawan berhasil disimpan.');
+    return redirect('/karyawan')->with('success', 'Data berhasil disimpan!');
 }
 
 

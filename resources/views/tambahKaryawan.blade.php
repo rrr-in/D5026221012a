@@ -18,11 +18,6 @@
     @endif
 
 
-    <table class="table table-striped table-hover">
-
-    </table>
-   
-
     <form class="form-horizontal" role="form" action="/karyawan/store" method="post" id="karyawanForm">
         {{ csrf_field() }}
         <div class="form-group">
